@@ -1,0 +1,57 @@
+{
+    "name": "Ultroid UserBot Via UltroidCli",
+    "description": "The most advanced telegram userbot now has it's own Cli.",
+    "logo": "https://telegra.ph/file/031957757a4f6a5191040.jpg",
+    "keywords": [
+        "userbot",
+        "ultroid",
+        "cli"
+    ],
+    "repository": "https://github.com/BLUE-DEVIL1134/UltroidCliTemplate",
+    "website": "https://ultroid.tech",
+    "success_url": "https://github.com/BLUE-DEVIL1134/UltroidCli",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "You api id, from my.telegram.org",
+            "value": "", 
+            "required": true
+        },
+        "API_HASH": {
+            "description": "You api hash, from my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "SESSION": {
+            "description": "Use UltroidCli To Get your session string",
+            "value": "",
+            "required": true
+        },
+        "REDIS_URI": {
+            "description": "Redis endpoint URL, from redislabs.com",
+            "value": "",
+            "required": true
+        },
+        "REDIS_PASSWORD": {
+            "description": "Redis endpoint password, from redislabs.com",
+            "value": "",
+            "required": true
+        },
+        "HEROKU_API": {
+            "description": "Heroku API token",
+            "value": "",
+            "required": true
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Name of your Heroku app, given in the first blank on this page.",
+            "value": "",
+            "required": true
+        }
+    },
+    "formation": {
+        "ultroid": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
